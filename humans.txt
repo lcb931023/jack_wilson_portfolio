@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jack Wilson -- Designer, Client -- No Twitter.
+    Changbai Li -- Developer -- No Twitter.
+
+# THANKS
+
+    Steven Wanderski
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    bxSlider, Anchor Slider

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Novecento wide';
+    src: url('../font/../font/Novecentowide-Normal.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Novecento wide';
+    src: url('../font/Novecentowide-Light.otf') format('opentype');
+    font-weight: lighter; 
+}
+@font-face {
+    font-family: 'Novecento wide';
+    src: url('../font/Novecentowide-Book.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Novecento wide';
+    src: url('../font/Novecentowide-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Novecento wide';
+    src: url('../font/Novecentowide-DemiBold.otf') format('opentype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Novecento wide';
+    src: url('../font/Novecentowide-Bold.otf') format('opentype');
+    font-weight: bolder;
+}

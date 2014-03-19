@@ -1,0 +1,18 @@
+Project Expanding:
+
+
+Navigation:
+
+Footer:
+ - footer hovering
+
+Else:
+ - HALO Waypoint/ other mobile project assets
+
+Improvement:
+ - GREATEST HOTELS:
+ 	 - Expand the size of slider images so we can see the screenshots more clearly
+ 	 - Only show the dot navs when expanded
+ 	 - It seems a little high. Too much pot man. Constant highness, 24/7
+ - bxSlider
+ 	 - See if the movement of slider can be continuous, instead of rolling back

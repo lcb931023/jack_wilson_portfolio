@@ -1,0 +1,276 @@
+
+header{
+    background-image: url('../img/header_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 1020px;
+    height: 488px;
+    font-family: 'Novecento wide';
+    /* Novecento has no lowercase.
+    We put this in to make sure other default font will be uppercase*/
+    text-transform:uppercase; 
+    color: #ffffff;
+}
+
+header #logo{
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    width: 134px;
+    height: 103px;
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+}
+
+header #title{
+    font-size: 24px;
+    font-family: 'Novecento wide';
+    position: relative;
+    width: 170px; /* to make sure the lines wrap around */
+    left: 20px;
+    top: 50px;
+    float: left;
+}
+header #title > span{
+    font-weight: 300;
+}
+header #title > span + span{
+    font-weight: 400;
+    float: right;
+}
+header #title > span + span + span{
+    position: relative;
+    top: -5px;
+    font-weight: lighter;
+    font-size: 14px;
+    /* Align Right */
+    float: right;
+    padding-right: 1px; /* In the name of aesthetics */
+}
+
+header nav{
+    float: right;
+    position: relative;
+    top: 56px;
+    right: 30px;
+    list-style: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+header nav ul li{
+    float: left;
+    position: relative;
+    margin-left: 14px;
+}
+
+header nav ul li span {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    max-height: 1px;
+    background-color: #ffffff;
+    bottom: -5px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+header nav ul a:hover span{
+    width: 100%;
+    height: 2px;
+}
+
+/*** Projects ***/
+
+.projects_wrapper{
+    display: table;
+    width: 100%;
+    border-color: #d3d3d3;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+.project_width_modifier{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.project{
+    display: table-cell;
+    vertical-align: middle;
+    width: 1020px;
+    margin: 0 auto;
+    height: 320px;
+    overflow: hidden;
+    color: #3a3a3a;
+}
+/* BUTTon */
+.project a div{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    /* Cursor hover turns to hand*/
+    cursor: pointer;
+    cursor: hand;
+    /* Vertical & Horizontal align */
+    line-height: 46px;
+    text-align: center;
+    /* Rounded Rectangle Button */
+    background-color: #45b29d;
+    width: 155px;
+    height: 44px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; /* future proofing */
+    -khtml-border-radius: 3px; /* for old Konqueror browsers */
+}
+.project .description{
+    width: 280px;
+}
+/* Project's titles are all Novecento wide*/
+.project .description span{
+    font-family: 'Novecento wide';
+    font-size: 24px;
+}
+/* ...and all the paragraph descriptions are Lato */
+.project .description p{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.project .description > span{
+    font-weight: 400;
+}
+.project .description > span + span{
+    font-weight: 100;
+}
+
+.project > .description_wrapper{
+    position: relative;
+    top: 20%;
+}
+
+.arrange_right > .description_wrapper{
+    float: right;
+    right: 140px;
+}
+
+.arrange_left > .description_wrapper{
+    float: left;
+    left: 105px;
+}
+
+.image_overflower{
+    overflow: hidden;
+    height: 320px;
+}
+
+.programs_used{
+    display:none;
+    position: relative;
+    bottom: -10px;
+    left: -10px;
+}
+
+.programs_used img{
+    float: left;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+/* x button for projects */
+.x_button_wrapper{
+    position: relative;
+    display: none;
+    /* Cursor hover turns to hand*/
+    cursor: pointer;
+    cursor: hand;
+}
+
+.x_button_wrapper img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Image Slider */
+
+.arrange_right .slider_wrapper{
+    float: left;
+    position: relative;
+}
+
+.arrange_left .slider_wrapper{
+    float: right;
+    position: relative;
+}
+
+.slider_wrapper{
+    width: 417px;
+    overflow: hidden;
+}
+
+/* Mobile images are wrapped in this image overflower. They require a different width */
+
+.image_overflower .slider_wrapper{
+    width: 287px;
+}
+
+
+/* Extending the description when VIEW PROJECT */
+.extended{
+    display: none;
+}
+
+/* FOOTER */
+#footer{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#copyright{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #3a3a3a;
+    float: left;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#media_portal {
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.media_icon{
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+    margin-right: 10px;
+    float: left;
+}
+
+#vimeo{
+    background-image: url('../img/iconsinfo/vimeo_icon.png');
+}
+#dribbble{
+    background-image: url('../img/iconsinfo/dribbble_icon.png');
+}
+#pinterest{
+    background-image: url('../img/iconsinfo/pinterest_icon.png');
+}
+#facebook{
+    background-image: url('../img/iconsinfo/facebook_icon.png');
+}
